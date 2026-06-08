@@ -11,8 +11,20 @@ Aplicativo mobile em React Native + Expo para monitoramento de missões espaciai
 * **Larissa Machado Silva** - RM564168
 * **Raira T.C.** - RM564850
 
-## Descrição do Sistema
-Este aplicativo simula um painel de controle e telemetria para gerenciamento de parâmetros críticos de missões espaciais. Ele fornece dados em tempo real sobre sensores, energia, links de comunicação e estabilidade orbital, agindo dinamicamente em caso de anomalias atmosféricas ou mecânicas.
+## Descrição do Projeto
+O objetivo do aplicativo é monitorar parâmetros de uma missão espacial em tempo real, exibindo informações como:
+- Energia da nave
+- Comunicação
+- Estabilidade orbital
+- Alertas automáticos
+- Configurações da missão
+
+O sistema foi desenvolvido com foco em:
+- Interface futurista  
+- Navegação entre telas  
+- Persistência local de dados  
+- Gerenciamento de estado global  
+- Formulários com validação  
 
 ## Tecnologias e Requisitos Implementados
 - **React Native + Expo (v51/SDK Atual):** Estrutura base do projeto mobile.
@@ -22,26 +34,17 @@ Este aplicativo simula um painel de controle e telemetria para gerenciamento de 
 - **Validação de Formulários:** Filtros de tipos de dados e limites numéricos restritos de 0 a 100%.
 - **Componentização:** Isolamento e modularização de cards de telemetria visual.
 
-## Estrutura
-space-monitor-app
-│
+# Estrutura do Projeto
 
-├── app
+```txt
+app
+ ├── _layout.tsx
+ ├── index.tsx
+ ├── dashboard.tsx
+ └── config.tsx
 
-│   ├── _layout.tsx
-
-│   ├── index.tsx
-
-│   ├── dashboard.tsx
-
-│   └── config.tsx
-
-│
-
-├── context
-
-│   └── MissionContext.tsx
-
+context
+ └── MissionContext.tsx
 │
 
 └── package.json
