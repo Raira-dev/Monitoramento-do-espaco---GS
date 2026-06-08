@@ -21,3 +21,17 @@ Este aplicativo simula um painel de controle e telemetria para gerenciamento de 
 - **AsyncStorage:** Mecanismo de persistência local para salvar os dados modificados pelo painel do comandante.
 - **Validação de Formulários:** Filtros de tipos de dados e limites numéricos restritos de 0 a 100%.
 - **Componentização:** Isolamento e modularização de cards de telemetria visual.
+
+## Estrutura
+space-monitor-app
+│
+├── app
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   ├── dashboard.tsx
+│   └── config.tsx
+│
+├── context
+│   └── MissionContext.tsx
+│
+└── package.json
