@@ -9,7 +9,7 @@ Aplicativo mobile em React Native + Expo para monitoramento de missões espaciai
 ## 👥 Integrantes da Equipe
 * **Anny Elly Pantoja Martin** - RM565055
 * **Larissa Machado Silva** - RM564168
-* **Raira de Teves Costa** - RM564850
+* **Raira T.C.** - RM564850
 
 ## Descrição do Sistema
 Este aplicativo simula um painel de controle e telemetria para gerenciamento de parâmetros críticos de missões espaciais. Ele fornece dados em tempo real sobre sensores, energia, links de comunicação e estabilidade orbital, agindo dinamicamente em caso de anomalias atmosféricas ou mecânicas.
