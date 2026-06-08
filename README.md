@@ -25,13 +25,23 @@ Este aplicativo simula um painel de controle e telemetria para gerenciamento de 
 ## Estrutura
 space-monitor-app
 │
+
 ├── app
+
 │   ├── _layout.tsx
+
 │   ├── index.tsx
+
 │   ├── dashboard.tsx
+
 │   └── config.tsx
+
 │
+
 ├── context
+
 │   └── MissionContext.tsx
+
 │
+
 └── package.json
